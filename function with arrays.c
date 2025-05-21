@@ -1,11 +1,10 @@
 #include <stdio.h>                              
 void printArray(const int arr[], int size)// Rule 8.2
 {
-    for (int i = 0; i < size; i++)// for loop to print the values
+    for (int i = 0; i < size; i++)// for loop to print the values in the array
     {
-        printf("%d ", arr[i]);
+        printf("%d ", arr[i]);// here, it will print the values in the array
     }
-    printf("\n");
 }
 void main()
 {
